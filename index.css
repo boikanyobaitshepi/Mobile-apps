@@ -41,11 +41,11 @@ button {
 }
 
 ul li {
-    font-size: 15px;
+    font-size: 20px;
     background-color:lightcyan;
     padding: 15px;
-    border-radius: 15px;
-    flex-grow: 2;
+    border-radius: 8px;
+    flex-grow: 1;
     text-align: center;
     box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.2);
 }
@@ -57,6 +57,8 @@ ul {
     flex-wrap: wrap;
     gap: 10px
 }
-
+ ul li:hover {
+    cursor: pointer;
+ }
 
 
